@@ -29,9 +29,11 @@ The space button will change the gravity of the duck, if the gravity is down it 
 When you touch this switch, if gravity is pointing up, it will reverse the direction of gravity from up to the right, from down to the left and so on.
 ### 2.2.2 Tiles Map
 ![Tiles](https://github.com/user-attachments/assets/0ce9635f-af1d-43fa-b50b-f9a469f93c88)
+
 consists of blocks including dirt blocks and traps. If you step on a trap, you lose and have to play again.
 ### 2.2.3 Destination
 ![image](https://github.com/user-attachments/assets/5383eea8-3bb5-48d0-9542-80db6412360f)
+
 When you touch this button you have passed the level.
 
 # 3. References
