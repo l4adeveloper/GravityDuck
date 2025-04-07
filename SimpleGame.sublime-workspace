@@ -1,0 +1,390 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"play",
+				"playOneTime"
+			],
+			[
+				"CL",
+				"CL_TILE_DEST"
+			],
+			[
+				"check",
+				"checkIndex"
+			],
+			[
+				"s_",
+				"s_Gra"
+			],
+			[
+				"dest",
+				"dest_Gra"
+			],
+			[
+				"de",
+				"destX"
+			],
+			[
+				"fra",
+				"frameMove"
+			],
+			[
+				"frame",
+				"frameMove"
+			],
+			[
+				"in",
+				"input_type_down"
+			],
+			[
+				"SDL",
+				"SDLK_UP"
+			],
+			[
+				"inp",
+				"input_type_down"
+			],
+			[
+				"g",
+				"GRAVITY"
+			],
+			[
+				"is",
+				"isCheated"
+			],
+			[
+				"Chec",
+				"checkPicked"
+			],
+			[
+				"get",
+				"getPick"
+			],
+			[
+				"des",
+				"dest_x"
+			],
+			[
+				"C",
+				"CL_TILE_DEST"
+			],
+			[
+				"CL_",
+				"CL_TILE_DEST"
+			],
+			[
+				"isP",
+				"isPicked"
+			],
+			[
+				"fa",
+				"fallDistance"
+			],
+			[
+				"IS",
+				"isFallingTrap"
+			],
+			[
+				"fall",
+				"fallSpeed"
+			],
+			[
+				"CL_TILE_",
+				"CL_TILE_NOTHING"
+			],
+			[
+				"s",
+				"soundEffect"
+			],
+			[
+				"SDL_KE",
+				"SDL_KEYUP"
+			],
+			[
+				"game",
+				"gameState"
+			],
+			[
+				"mAX",
+				"MAX_Y_NO_PADDING"
+			],
+			[
+				"Ti",
+				"TILE_SIZE"
+			],
+			[
+				"T",
+				"TILE_SIZE"
+			],
+			[
+				"SDL_DE",
+				"SDL_Delay"
+			],
+			[
+				"SDL_De",
+				"SDL_Delay"
+			],
+			[
+				"SDL_de",
+				"SDL_Delay"
+			],
+			[
+				"MAX",
+				"MAX_Y_NO_PADDING"
+			],
+			[
+				"TI",
+				"TILE_MAX"
+			],
+			[
+				"SDL_R",
+				"SDL_RenderCopy"
+			],
+			[
+				"rend",
+				"renderer"
+			],
+			[
+				"SDL_render",
+				"SDL_RenderClear"
+			],
+			[
+				"p",
+				"p_entity"
+			],
+			[
+				"E",
+				"Entity"
+			],
+			[
+				"t",
+				"texTure"
+			],
+			[
+				"SDL_",
+				"SDL_Texture"
+			],
+			[
+				"p_",
+				"p_filePath"
+			],
+			[
+				"Render",
+				"RenderWindows"
+			]
+		]
+	},
+	"build_system": "Packages/C++/C++ Single File.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"packge",
+				"Package Control: Install Package"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"clang",
+				"Clang Format: Select Style"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/User/OneDrive - vnu.edu.vn/Desktop/SimpleGame/src/Player.cpp",
+		"/C/Users/User/OneDrive - vnu.edu.vn/Desktop/SimpleGame/include/Player.hpp",
+		"/C/Users/User/OneDrive - vnu.edu.vn/Desktop/SimpleGame/src/main.cpp",
+		"/C/Users/User/OneDrive - vnu.edu.vn/Desktop/SimpleGame/src/Map.cpp",
+		"/C/Users/User/OneDrive - vnu.edu.vn/Desktop/SimpleGame/include/Utils.hpp",
+		"/C/Users/User/OneDrive - vnu.edu.vn/Desktop/SimpleGame/src/SwitchButton.cpp",
+		"/C/Users/User/OneDrive - vnu.edu.vn/Desktop/SimpleGame/Maps/2.txt",
+		"/C/Users/User/OneDrive - vnu.edu.vn/Desktop/SimpleGame/SimpleGame.sublime-project",
+		"/C/Users/User/OneDrive - vnu.edu.vn/Desktop/SimpleGame/include/Maps.hpp",
+		"/C/Users/User/OneDrive - vnu.edu.vn/Desktop/SimpleGame/include/Enemies.hpp",
+		"/C/Users/User/OneDrive - vnu.edu.vn/Desktop/SimpleGame/src/Untils.cpp",
+		"/C/Users/User/OneDrive - vnu.edu.vn/Desktop/SimpleGame/Maps/5.txt",
+		"/C/Users/User/OneDrive - vnu.edu.vn/Desktop/SimpleGame/Maps/10.txt",
+		"/C/Users/User/OneDrive - vnu.edu.vn/Desktop/SimpleGame/include/RenderWindows.hpp",
+		"/C/Users/User/OneDrive - vnu.edu.vn/Desktop/SimpleGame/src/renderwindow.cpp",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/SublimeAStyleFormatter/SublimeAStyleFormatter.sublime-settings",
+		"/C/Users/User/OneDrive - vnu.edu.vn/Desktop/SimpleGame/include/Button.hpp",
+		"/C/Users/User/OneDrive - vnu.edu.vn/Desktop/SimpleGame/src/Entity.cpp",
+		"/C/Users/User/OneDrive - vnu.edu.vn/Desktop/SimpleGame/include/Entity.hpp",
+		"/C/Users/User/OneDrive - vnu.edu.vn/Desktop/SimpleGame/SimpleGame.sublime_project",
+		"/C/Program Files/Sublime Text 3/debug.cpp"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cout",
+			"3",
+			"audio",
+			"CL_TILE_NOTHING",
+			"cout",
+			";\n",
+			"cout",
+			"canInv",
+			"canInv\\",
+			"canInv",
+			"checkTouch",
+			"cout",
+			"getGravity",
+			"ImportEgg",
+			"MAX_VELOCITY",
+			"cout",
+			"{\n",
+			"GRAVITY",
+			"fly",
+			"cout",
+			"setPicked",
+			"}\n",
+			");\n",
+			"int",
+			"}\n",
+			"v_x",
+			"v_y",
+			"Map",
+			";\n",
+			"dest_x",
+			"dest_X",
+			"double",
+			"texture",
+			"double"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"menu_visible": true,
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 127.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Build Debug",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
