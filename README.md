@@ -27,6 +27,7 @@ Start by open main.exe file. A window will pop-up, press enter to start the game
 Control the duck using the key left key right and space. Use left and right arrows if gravity is currently pointing up or down, up or down arrows if gravity is pulling to the left and right.
 
 The space button will change the gravity of the duck, if the gravity is down it will reverse and so on.
+
 ![image](https://github.com/user-attachments/assets/3b4b05e3-fa4d-4ca2-9c23-26a50a4dda78)
 ## 2.2 Object
 ### 2.2.1 Switch Button
