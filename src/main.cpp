@@ -83,6 +83,7 @@ int main(int argc, char* args[]) {
                 isSpawning = true;
                 if(player -> checkPickedSucces() == true) {
                     level++;
+                    level = min(level , 15);
                     player -> Reset();
                     gameMap.Reset();
                     window -> fadeOutScreen();
