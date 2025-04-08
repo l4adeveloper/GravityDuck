@@ -50,8 +50,10 @@ Tutorial:
 https://www.youtube.com/watch?v=q1WzniyeGTU&list=PLR7NDiX0QsfQQ2iFXsXepwH46wf3D4Y4C
 
 https://www.youtube.com/watch?v=KsG6dJlLBDw&list=PL2RPjWnJduNmXHRYwdtublIPdlqocBoLS
+Sound effect and sprites:
 
-Thanks Mr. Khanh Nguyen for the sound effects and sprites.
-https://github.com/WHKnightZ/OpenGL_Gravity_Duck/
+https://www.cemetech.net/forum/viewtopic.php?t=7382&start=0
 
+
+https://drive.google.com/file/d/1XMROTUbaAEr-29V-zXUklzp1Uo37aYBh/view
 
