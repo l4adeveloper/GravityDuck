@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"SDL_DE",
+				"SDL_Delay"
+			],
+			[
 				"play",
 				"playOneTime"
 			],
@@ -118,10 +122,6 @@
 			[
 				"T",
 				"TILE_SIZE"
-			],
-			[
-				"SDL_DE",
-				"SDL_Delay"
 			],
 			[
 				"SDL_De",

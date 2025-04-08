@@ -22,11 +22,12 @@ int main(int argc, char* args[]) {
         cerr << "Failed to initialize audio!\n";
         return -1;
     }
-    SDL_Rect startRect = { 157, 277, 327, 59 };
+    if (TTF_Init() == -1) {
+        cerr << "Failed to initialize SDL_ttf: " << TTF_GetError() << std::endl;
+    }
     audio.playAllTime("bgr");
     bool running = true;
     SDL_Event e;
-   // SDL_Delay(500);
     int level = 1;
     gameState = MENU;
     while (running) {
@@ -35,8 +36,6 @@ int main(int argc, char* args[]) {
          while (SDL_PollEvent(&e)) {
             if (e.type == SDL_QUIT) running = false;
             else if (e.type == SDL_KEYDOWN && gameState == MENU) {
-                int x, y;
-                SDL_GetMouseState(&x, &y);
                 if(e.key.keysym.scancode  == SDL_SCANCODE_RETURN) {
                     gameState = PLAYING;
                     window -> fadeOutScreen();
@@ -74,7 +73,11 @@ int main(int argc, char* args[]) {
             gameMap.DrawMap(window.get());
             gameMap.SpawnEgg(window.get() , player.get(), 0);
             switchbutton -> Spawn(window.get());
-            if(player -> checkPicked() == true) {
+            string text = "Level: " + (level < 10 ? "0" + to_string(level) : to_string(level));
+            string pass = "Passed!";
+            window -> RenderText(text , 12 , 0, 0);
+            if(player -> checkPicked() == true) { 
+                window -> RenderText(pass , 64 , (320 - 64) / 2, (240 - 64) / 2);
                 gameMap.Update(player.get());
                 gameMap.PickEgg(window.get() , player.get());
                 isSpawning = true;

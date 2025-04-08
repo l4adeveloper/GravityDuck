@@ -43,6 +43,17 @@ void RenderWindows::UpdatebgX(){
         bgX = 0;
     }
 }
+void RenderWindows::RenderText(string &message, int fontSize, int x, int y) {
+    SDL_Color color = {255, 255,255};
+    TTF_Font* font = TTF_OpenFont("res/font/Pixel Emulator.otf", fontSize);
+    SDL_Surface* surface = TTF_RenderText_Solid(font, message.c_str(), color);
+    SDL_Texture* texture = SDL_CreateTextureFromSurface(renderer, surface);
+    SDL_Rect dstRect = { x, y, surface->w, surface->h };
+    SDL_RenderCopy(renderer, texture, NULL, &dstRect);
+    SDL_FreeSurface(surface);
+    SDL_DestroyTexture(texture);
+    TTF_CloseFont(font);
+}
 void RenderWindows::init() {
     SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
     SDL_RenderClear(renderer); 
