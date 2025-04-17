@@ -17,8 +17,20 @@ Code (Green button) -> download ZIP -> extract and enjoy.
 Start by open main.exe file. A window will pop-up, press enter to start the game , press esc to back the menu 
 ![image](https://github.com/user-attachments/assets/2adc7075-3833-46d9-80f7-56d035b3897d)
 
-
 ![image](https://github.com/user-attachments/assets/972aed87-0e83-47c6-856f-016e127c39a7)
+
+![image](https://github.com/user-attachments/assets/31a0f048-9265-4380-9539-9f6602632f08)
+
+![image](https://github.com/user-attachments/assets/45105e73-01bb-4c48-82f5-083e8b729ecb)
+
+![image](https://github.com/user-attachments/assets/4e37a851-595a-49f1-b005-34d46ff50ce2)
+
+![image](https://github.com/user-attachments/assets/5854d45d-7c07-46dc-9dcd-aa523f6c673d)
+
+![image](https://github.com/user-attachments/assets/72e6157c-6c16-400d-ab01-8dc8406cba34)
+
+
+
 
 
 # 2.Mechanic
