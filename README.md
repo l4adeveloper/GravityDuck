@@ -17,9 +17,9 @@ Code (Green button) -> download ZIP -> extract and enjoy.
 Start by open main.exe file. A window will pop-up, press enter to start the game , press esc to back the menu 
 ![image](https://github.com/user-attachments/assets/2adc7075-3833-46d9-80f7-56d035b3897d)
 
-![{865E8C8E-CB51-480C-B4BF-12A73E2AD4B9}](https://github.com/user-attachments/assets/181a716b-5608-4962-a038-7355fd9b9fa2)
-
 ![image](https://github.com/user-attachments/assets/972aed87-0e83-47c6-856f-016e127c39a7)
+
+![{865E8C8E-CB51-480C-B4BF-12A73E2AD4B9}](https://github.com/user-attachments/assets/181a716b-5608-4962-a038-7355fd9b9fa2)
 
 ![image](https://github.com/user-attachments/assets/31a0f048-9265-4380-9539-9f6602632f08)
 
