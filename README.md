@@ -29,7 +29,9 @@ Start by open main.exe file. A window will pop-up, press enter to start the game
 
 ![image](https://github.com/user-attachments/assets/72e6157c-6c16-400d-ab01-8dc8406cba34)
 
+![image](https://github.com/user-attachments/assets/b9363634-651f-42e2-8153-1d610e7ca5b0)
 
+  ![image](https://github.com/user-attachments/assets/b085dc9c-5d8a-4825-8605-e1727a0462b0)
 
 
 
