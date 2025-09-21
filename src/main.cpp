@@ -19,7 +19,7 @@ int main(int argc, char* args[]) {
     gameMap.LoadPlayerAnimation(window.get());
     gameMap.LoadEggAnimation(window.get());
     if (Mix_Init(MIX_INIT_MP3 | MIX_INIT_OGG) == 0 || Mix_OpenAudio(22050, MIX_DEFAULT_FORMAT, 2, 4096) == -1) {
-        cerr << "Failed to initialize audio!\n";
+        cerr << "Failed to initialize audio! 1\n";
         return -1;
     }
     if (TTF_Init() == -1) {
@@ -121,3 +121,4 @@ int main(int argc, char* args[]) {
     SDL_Quit();
     return 0;
 }
+
