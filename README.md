@@ -113,7 +113,6 @@ The game uses multiple threads to ensure smooth performance:
 ![image](https://hackmd.io/_uploads/ryPBRYak-x.png)
 
 **Gameplay**  
-![Gameplay]
 <img width="1201" height="899" alt="image" src="https://github.com/user-attachments/assets/a82fa840-bedd-4bfc-ac03-e28ad621d2c1" />
 **Power-ups in Action**  
 ![Power-ups](docs/screenshots/powerups.png)
