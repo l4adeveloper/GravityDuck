@@ -156,6 +156,9 @@ The game uses multiple threads to ensure smooth performance:
 
 ## References
 
+Image & Sprites: Design yourself
+
+
 Background Music: 
 
 https://www.youtube.com/watch?v=CY5u3yH8t34&list=PL6uM6_aoRG567o8w8Ago04NZF_R28c0qE&index=3
