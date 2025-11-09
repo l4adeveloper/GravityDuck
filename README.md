@@ -17,7 +17,9 @@ This is a classic Arkanoid game developed in Java as a final project for Object-
 
 # 0. How to download
 
-Code (Green button) -> download ZIP -> extract and enjoy.
+1. Clone the project from the repository.
+3. Open the project in the IDE.  
+4. Run the project.  
 
 # 1. How to start
 Start by open main.exe file. A window will pop-up, press enter to start the game , press esc to back the menu 
