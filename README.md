@@ -9,11 +9,9 @@ Group 1 - Class INT2204 1
 | 24020181 | Dương Đăng Khoa |
 | 24020073 | Cao Anh Đức | 
 
-Instructor: Kiều Văn Tuyên & Vũ Đức Hiếu
+Instructor: Kiều Văn Tuyên & Vũ Đức Hiếu  
 
-
-Semester: HK1 - 2025
-
+Semester: HK1 - 2025  
 
 This is a classic Arkanoid game developed in Java as a final project for Object-Oriented Programming course. The project demonstrates the implementation of OOP principles and design patterns.
 
