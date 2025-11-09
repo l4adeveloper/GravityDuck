@@ -80,7 +80,7 @@ The game uses multiple threads to ensure smooth performance:
 | `ESC` | Pause game |
 
 ### How to Play
-1. **Start the game**: Click "New Game" from the main menu.
+1. **Start the game**: Click "PLAY" from the main menu.
 2. **Control the paddle**: Use arrow keys or A/D to move left and right.
 3. **Launch the ball**: Press SPACE to launch the ball from the paddle.
 4. **Destroy bricks**: Bounce the ball to hit and destroy bricks.
