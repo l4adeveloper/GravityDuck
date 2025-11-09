@@ -1,86 +1,180 @@
-# GravityDuck
-# Introduction
+# Arkanoid Game - Object-Oriented Programming Project
+
+## Author
 Group 1 - Class INT2204 1
+1. Lê Quốc Anh - 24020010
+2. Dương Đăng Khoa - 24020181
+3. Cao Anh Đức - 24020073
 
+**Instructor**: Kiều Văn Tuyên & Vũ Đức Hiếu  
+**Semester**: HK1 - 2025
 
-| MSSV | Họ tên |
-|------|--------|
-| 24020010 | Lê Quốc Anh |
-| 24020181 | Dương Đăng Khoa |
-| 24020073 | Cao Anh Đức | 
+---
 
-Instructor: Kiều Văn Tuyên & Vũ Đức Hiếu  
-
-Semester: HK1 - 2025  
-
+## Description
 This is a classic Arkanoid game developed in Java as a final project for Object-Oriented Programming course. The project demonstrates the implementation of OOP principles and design patterns.
 
-# 0. How to download
+**Key features:**
+1. The game is developed using Java 17+ with JavaFX for GUI.
+2. Implements core OOP principles: Encapsulation, Inheritance, Polymorphism, and Abstraction.
+3. Applies multiple design patterns: Singleton, Factory Method, Strategy, Observer, and State.
+4. Features multithreading for smooth gameplay and responsive UI.
+5. Includes sound effects, animations, and power-up systems.
+6. Supports save/load game functionality and leaderboard system.
+
+**Game mechanics:**
+- Control a paddle to bounce a ball and destroy bricks
+- Collect power-ups for special abilities
+- Progress through multiple levels with increasing difficulty
+- Score points and compete on the leaderboard
+
+---
+
+## UML Diagram
+
+### Class Diagram
+![Class Diagram](docs/uml/class-diagram.png)
+
+_Có thể sử dụng IntelliJ để generate ra Class Diagrams: https://www.youtube.com/watch?v=yCkTqNxZkbY_
+
+*Complete UML diagrams are available in the `docs/uml/` folder*
+
+---
+
+## Design Patterns Implementation
+
+_Có dùng hay không và dùng ở đâu_
+
+### 1. Singleton Pattern
+**Used in:** `GameManager`, `AudioManager`, `ResourceLoader`
+
+**Purpose:** Ensure only one instance exists throughout the application.
+
+---
+
+## Multithreading Implementation
+_Có dùng hay không và dùng như thế nào_
+
+The game uses multiple threads to ensure smooth performance:
+
+1. **Game Loop Thread**: Updates game logic at 100 FPS
+2. **Rendering Thread**: Handles graphics rendering (EDT for JavaFX Application Thread)
+3. **Audio Thread Pool**: Plays sound effects asynchronously
+4. **I/O Thread**: Handles save/load operations without blocking UI
+
+---
+
+## Installation
 
 1. Clone the project from the repository.
-3. Open the project in the IDE.  
-4. Run the project.  
+2. Open the project in the IDE.
+3. Run the project.
 
-# 1. How to start
-Start by open main.exe file. A window will pop-up, press enter to start the game , press esc to back the menu 
-![image](https://github.com/user-attachments/assets/2adc7075-3833-46d9-80f7-56d035b3897d)
+## Usage
 
-![image](https://github.com/user-attachments/assets/972aed87-0e83-47c6-856f-016e127c39a7)
+### Controls
+| Key | Action |
+|-----|--------|
+| `←` or `A` | Move paddle left |
+| `→` or `D` | Move paddle right |
+| `SPACE` | Launch ball / Shoot laser |
+| `ESC` | Pause game |
 
-![{865E8C8E-CB51-480C-B4BF-12A73E2AD4B9}](https://github.com/user-attachments/assets/181a716b-5608-4962-a038-7355fd9b9fa2)
+### How to Play
+1. **Start the game**: Click "New Game" from the main menu.
+2. **Control the paddle**: Use arrow keys or A/D to move left and right.
+3. **Launch the ball**: Press SPACE to launch the ball from the paddle.
+4. **Destroy bricks**: Bounce the ball to hit and destroy bricks.
+5. **Collect power-ups**: Catch falling power-ups for special abilities.
+6. **Avoid losing the ball**: Keep the ball from falling below the paddle.
+7. **Complete the level**: Destroy all destructible bricks to advance.
 
-![image](https://github.com/user-attachments/assets/31a0f048-9265-4380-9539-9f6602632f08)
+### Power-ups
+| Icon | Name | Effect |
+|------|------|--------|
+| <img src="https://hackmd.io/_uploads/Sk6s3Ypk-e.png" width="32"/> | Expand Paddle | Increases paddle width for 10 seconds |
+|<img src="https://hackmd.io/_uploads/r1QxTKaJ-x.png" width="32"/> | Fast Ball | Increases ball speed by 40% |
+| <img src="https://hackmd.io/_uploads/HkgQaKTybx.png" width="32"/> | Slow Ball | Decreases ball speed by 50% |
+| <img src="https://hackmd.io/_uploads/rJwL6FaJbx.png" width="32"/> | Multi Ball | Spawns 3 additional balls |
+| <img src="https://hackmd.io/_uploads/H1oOaF61-g.png" width="32"/> | Laser Gun | Shoot lasers to destroy bricks for 6 seconds |
+| <img src="https://hackmd.io/_uploads/S1JCaKTybg.png" width="32"/> | Heart | Get 1 extra life for the level |
+| <img src="https://hackmd.io/_uploads/rktqaYpJWx.png" width="32"/> | Fire Ball | Ball passes through bricks for 12 seconds |
 
-![image](https://github.com/user-attachments/assets/45105e73-01bb-4c48-82f5-083e8b729ecb)
+---
 
-![image](https://github.com/user-attachments/assets/4e37a851-595a-49f1-b005-34d46ff50ce2)
+## Demo
 
-![image](https://github.com/user-attachments/assets/5854d45d-7c07-46dc-9dcd-aa523f6c673d)
-
-![image](https://github.com/user-attachments/assets/72e6157c-6c16-400d-ab01-8dc8406cba34)
-
-![image](https://github.com/user-attachments/assets/b9363634-651f-42e2-8153-1d610e7ca5b0)
-
-  ![image](https://github.com/user-attachments/assets/b085dc9c-5d8a-4825-8605-e1727a0462b0)
-
-
-
-# 2.Mechanic
-## 2.1 Player
-### 2.1.1 Movement
-Control the duck using the key left key right and space. Use left and right arrows if gravity is currently pointing up or down, up or down arrows if gravity is pulling to the left and right.
-
-The space button will change the gravity of the duck, if the gravity is down it will reverse and so on.
-
-![image](https://github.com/user-attachments/assets/3b4b05e3-fa4d-4ca2-9c23-26a50a4dda78)
-## 2.2 Object
-### 2.2.1 Switch Button
-![Switch](https://github.com/user-attachments/assets/41e2f1d4-9a31-4040-a216-ffa20388e20f)
-
-When you touch this switch, if gravity is pointing up, it will reverse the direction of gravity from up to the right, from down to the left and so on.
-### 2.2.2 Tiles Map
-![Tiles](https://github.com/user-attachments/assets/0ce9635f-af1d-43fa-b50b-f9a469f93c88)
-
-consists of blocks including dirt blocks and traps. If you step on a trap, you lose and have to play again.
-### 2.2.3 Destination
-
-![image](https://github.com/user-attachments/assets/5383eea8-3bb5-48d0-9542-80db6412360f)
+### Screenshots
 
 
-When you touch this button you have passed the level.
-
-# 3. References
-Tutorial:
-
-https://www.youtube.com/watch?v=q1WzniyeGTU&list=PLR7NDiX0QsfQQ2iFXsXepwH46wf3D4Y4C
-
-https://www.youtube.com/watch?v=KsG6dJlLBDw&list=PL2RPjWnJduNmXHRYwdtublIPdlqocBoLS
 
 
-Sound effect and sprites:
+**Main Menu**  
+![image](https://hackmd.io/_uploads/ryPBRYak-x.png)
 
-https://www.cemetech.net/forum/viewtopic.php?t=7382&start=0
+**Gameplay**  
+![Gameplay]
 
+**Power-ups in Action**  
+![Power-ups](docs/screenshots/powerups.png)
 
-https://drive.google.com/file/d/1XMROTUbaAEr-29V-zXUklzp1Uo37aYBh/view
+**Leaderboard**  
+![Leaderboard](docs/screenshots/leaderboard.png)
 
+### Video Demo
+[![Video Demo](docs/screenshots/video-thumbnail.png)](docs/demo/gameplay.mp4)
+
+*Full gameplay video is available in `docs/demo/gameplay.mp4`*
+
+---
+
+## Future Improvements
+
+### Planned Features
+1. **Additional game modes**
+   - Time attack mode
+   - Survival mode with endless levels
+   - Co-op multiplayer mode
+
+2. **Enhanced gameplay**
+   - Boss battles at end of worlds
+   - More power-up varieties (freeze time, shield wall, etc.)
+   - Achievements system
+
+3. **Technical improvements**
+   - Migrate to LibGDX or JavaFX for better graphics
+   - Add particle effects and advanced animations
+   - Implement AI opponent mode
+   - Add online leaderboard with database backend
+
+---
+
+## Technologies Used
+
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| Java | 17+ | Core language |
+| JavaFX | 19.0.2 | GUI framework |
+| Maven | 3.9+ | Build tool |
+| Jackson | 2.15.0 | JSON processing |
+
+---
+
+## License
+
+This project is developed for educational purposes only.
+
+**Academic Integrity:** This code is provided as a reference. Please follow your institution's academic integrity policies.
+
+---
+
+## Notes
+
+- The game was developed as part of the Object-Oriented Programming with Java course curriculum.
+- All code is written by group members with guidance from the instructor.
+- Some assets (images, sounds) may be used for educational purposes under fair use.
+- The project demonstrates practical application of OOP concepts and design patterns.
+
+---
+
+*Last updated: [Ngày/Tháng/Năm]*
