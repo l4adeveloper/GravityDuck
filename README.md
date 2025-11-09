@@ -109,10 +109,9 @@ The game uses multiple threads to ensure smooth performance:
 <img width="1200" height="899" alt="image" src="https://github.com/user-attachments/assets/8941d555-1d5c-46e0-82c5-8d46f5fb4ccf" />
 **Gameplay**  
 <img width="1201" height="899" alt="image" src="https://github.com/user-attachments/assets/a82fa840-bedd-4bfc-ac03-e28ad621d2c1" />
-
 **Settings**
 <img width="1204" height="899" alt="image" src="https://github.com/user-attachments/assets/778ebfc3-5852-4f1b-9802-5350c632e12c" />
-** Select Theme**
+**Select Theme**
 <img width="1200" height="896" alt="image" src="https://github.com/user-attachments/assets/274bf8b3-faf9-4803-b3af-0e6dada3ecfc" />
 
 ### Video Demo
