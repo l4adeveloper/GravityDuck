@@ -170,17 +170,14 @@ SFX:
 https://eugenyn.itch.io/dots-arkanoid
 
 Tutorial:
+
 https://www.youtube.com/watch?v=9XJicRt_FaI&t=3s
 
 
 https://www.youtube.com/watch?v=FLkOX4Eez6o&list=PL6gx4Cwl9DGBzfXLWLSYVy8EbTdpGbUIG
 
 Supporter:
-Thank you teachers Kieu Van Tuyen and Nguyen Duc Hieu for helping us complete this project  
-
-AU Assistant: 
-ChatGPT, Gemini, Claude
-
+Thank you teachers Kieu Van Tuyen and Vu Duc Hieu for helping us complete this project  
 
 ## License
 
