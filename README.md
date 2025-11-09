@@ -154,6 +154,27 @@ The game uses multiple threads to ensure smooth performance:
 
 ---
 
+## References
+
+Background Music: 
+
+https://www.youtube.com/watch?v=CY5u3yH8t34&list=PL6uM6_aoRG567o8w8Ago04NZF_R28c0qE&index=3
+https://www.youtube.com/watch?v=itCV2sZKRX0
+https://www.youtube.com/watch?v=-N63sX9Uq2o&list=RD-N63sX9Uq2o&start_radio=1
+
+SFX: 
+https://eugenyn.itch.io/dots-arkanoid
+
+Tutorial:
+https://www.youtube.com/watch?v=9XJicRt_FaI&t=3s
+https://www.youtube.com/watch?v=FLkOX4Eez6o&list=PL6gx4Cwl9DGBzfXLWLSYVy8EbTdpGbUIG
+
+Supporter:
+Thank you teachers Kieu Van Tuyen and Nguyen Duc Hieu for helping us complete this project
+Ai Assistant: 
+ChatGPT, Gemini, Claude
+
+
 ## License
 
 This project is developed for educational purposes only.
@@ -171,4 +192,4 @@ This project is developed for educational purposes only.
 
 ---
 
-*Last updated: [Ngày/Tháng/Năm]*
+*Last updated: [09/11/2025]*
