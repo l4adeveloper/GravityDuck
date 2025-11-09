@@ -122,24 +122,23 @@ The game uses multiple threads to ensure smooth performance:
 
 ---
 
-## Future Improvements
+## Additional features
 
-### Planned Features
-1. **Additional game modes**
-   - Time attack mode
-   - Survival mode with endless levels
-   - Co-op multiplayer mode
+### Features
+1. **Select level**
+   - We have 12 levels, each one a challenge
+   <img width="1202" height="899" alt="image" src="https://github.com/user-attachments/assets/394e8d91-c2cd-46b2-ad51-a06ae2a52c40" />
 
-2. **Enhanced gameplay**
-   - Boss battles at end of worlds
-   - More power-up varieties (freeze time, shield wall, etc.)
-   - Achievements system
 
-3. **Technical improvements**
-   - Migrate to LibGDX or JavaFX for better graphics
-   - Add particle effects and advanced animations
-   - Implement AI opponent mode
-   - Add online leaderboard with database backend
+2. **PVP**
+   - You can play with your friend, the first player uses A - D , the second player uses ← , → to move. The player who lets his ball pass through the defensive zone loses
+     <img width="1201" height="902" alt="image" src="https://github.com/user-attachments/assets/a59fa6f5-1d0f-448d-84be-1991bc1e1ee0" />
+
+
+3. **3 Interfaces**
+   - There are 3 different interfaces: Christmas, Halloween, and default. When switching interfaces, all sounds and images will change creating a diverse feeling.
+<img width="1198" height="902" alt="image" src="https://github.com/user-attachments/assets/b109d53b-32d6-4b4b-9c75-89387b0e8e52" />
+<img width="1201" height="900" alt="image" src="https://github.com/user-attachments/assets/b31b77f7-9f70-4c8c-bdea-bf936ac95b22" />
 
 ---
 
