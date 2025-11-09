@@ -43,9 +43,11 @@ _Có thể sử dụng IntelliJ để generate ra Class Diagrams: https://www.yo
 
 ## Design Patterns Implementation
 
-_Có dùng hay không và dùng ở đâu_
+### 1. MVC
+**Used in:** `All project follow MVC Pattern`  
 
-### 1. Singleton Pattern
+**Purpose:** The MVC pattern is to separate interface, processing, and controls to make the code easier to maintain, extend, reuse, and organize more clearly.
+### 2. Singleton Pattern
 **Used in:** `GameManager`, `AudioManager`, `ResourceLoader`
 
 **Purpose:** Ensure only one instance exists throughout the application.
@@ -53,10 +55,7 @@ _Có dùng hay không và dùng ở đâu_
 ---
 
 ## Multithreading Implementation
-_Có dùng hay không và dùng như thế nào_
-
 The game uses multiple threads to ensure smooth performance:
-
 1. **Game Loop Thread**: Updates game logic at 100 FPS
 2. **Rendering Thread**: Handles graphics rendering (EDT for JavaFX Application Thread)
 3. **Audio Thread Pool**: Plays sound effects asynchronously
