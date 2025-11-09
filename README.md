@@ -1,9 +1,13 @@
 # GravityDuck
 # Introduction
-MSV: 24020010
 
-Họ và tên: Lê Quốc Anh
-
+| MSSV | Họ tên |
+|------|--------|
+| 24020010 | Lê Quốc Anh |
+| 24020181 | Dương Đăng Khoa |
+| 24020073 | Cao Anh Đức | 
+Instructor: Kiều Văn Tuyên & Vũ Đức Hiếu
+Semester: HK1 - 2025
 Ngưỡng điểm mong muốn: 9 - 10
 
 A clone of Gravity Duck using the SDL2 library, written in C++. Gravity Duck is a 2D puzzle-platformer game where players control a duck with the unique ability to manipulate gravity to overcome obstacles and traps in each level.
