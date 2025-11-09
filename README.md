@@ -1,5 +1,7 @@
 # GravityDuck
 # Introduction
+Group 1 - Class INT2204 1
+
 
 | MSSV | Họ tên |
 |------|--------|
@@ -8,11 +10,12 @@
 | 24020073 | Cao Anh Đức | 
 
 Instructor: Kiều Văn Tuyên & Vũ Đức Hiếu
-Semester: HK1 - 2025
-Ngưỡng điểm mong muốn: 9 - 10
 
-A clone of Gravity Duck using the SDL2 library, written in C++. Gravity Duck is a 2D puzzle-platformer game where players control a duck with the unique ability to manipulate gravity to overcome obstacles and traps in each level.
-In the original game there were 40 levels, but in this version I could only make 15 levels and omitted some details because it was beyond my ability.
+
+Semester: HK1 - 2025
+
+
+This is a classic Arkanoid game developed in Java as a final project for Object-Oriented Programming course. The project demonstrates the implementation of OOP principles and design patterns.
 
 # 0. How to download
 
